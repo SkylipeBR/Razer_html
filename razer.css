@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    max-width: 1600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1600 ;
+}
+header a {
+    display:inline-block;
+    padding: 7px 18px;
+     border-radius: 3px;
+     color: #888;
+     text-decoration: none;
+     margin: 10px;
+     cursor: pointer;
+}
+header a:hover { 
+    color: white;
+}
+header img {
+    padding: 10px;
+    width: 50px;
+    
+    
+}
+li {
+    margin-top: 25px;
+    margin-bottom: 190px;
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+    
+    
+}
+
+ul {
+    margin-top: 9px;
+    width: 100%;
+    display: inline;
+    position: fixed;
+    
+   
+      
+}
+
+.menu {
+    margin-left: -1000px;
+}
+
+main img{
+    margin-top: 50px;
+    max-width: 1423px;
+    margin-bottom: 0px;
+    width: 1700px;
+}
+
+
+.buy-blade {
+
+    display: block;
+    background-color: silver;
+}
+
+.Processadores {
+    margin-top: -10px;
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.Processadores span {
+
+    font-size: 24px;
+    font-weight: 100;
+
+}
+
+.Processadores  h1 {
+    font-size: 60px;
+    color: #44d62c;
+}
+.Processadores h3 {
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Processadores p {
+    font-size: 18px;
+    color: silver;
+    margin-bottom: 30px;
+}
+
+#proces {
+    
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-left: 450px;
+   
+    
+}
+
+#proces img {
+    
+    padding: 5px;
+}
+
+.video-blade {
+    margin-left: -38px;
+    display: block;
+    margin-top: 100px;
+    max-height: 1400px;
+    width: 1416px;
+}
+iframe {
+    
+    border: none;
+    width: 100%;
+    height: 700px;
+}
+
+.potencia {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.text-potencia h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #44d62c;
+}
+
+.text-potencia h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.text-potencia p {
+    font-size: 20px;
+}
+
+.criterios {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 300px 300px 300px 300px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+
+}
+
+.cores h2{
+    font-size: 35px;
+}
+.cores span {
+    font-size: 24px;
+}
+
+.hz h2{
+    font-size: 35px;
+}
+.hz span {
+    font-size: 24px;
+}
+
+.cache h2 {
+    font-size: 35px ;
+}
+.cache span {
+    font-size: 24px;
+}
+
+.amd-model img {
+    margin-top: 15px;
+    width: 100px;
+}
+
+.ryzen img{
+    width: 1423px;
+}
+
+.rtx {
+    margin-top: -10px;
+    padding-top: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+.rtx h1 {
+    color: #44d62c;
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.rtx p {
+    color: #44d62c;
+    font-size: 22px;
+}
+
+.rtx span {
+    font-size: 18px;
+    color: silver;
+    margin-bottom: 70px;
+}
+
+.lean {
+    margin-top: 20px;
+    color: #44d62c;
+cursor: pointer;
+}
+
+.lean:hover {
+    text-decoration: underline;
+}
+
+.rtx img {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.jogando img {
+    width: 1423px;
+}
+
+.hard {
+    margin-top: -10px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.hard h1 {
+    color: #44d62c;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hard span {
+    color: #888;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hardware {
+    margin-top: 20px ;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    margin-left: 45px;
+
+}
+
+.vapor-cooler img {
+    display: inline-block;
+    width: 50px;
+}
+
+.coler-fan img {
+    width: 50px;
+}
+
+.tela-large img {
+    width: 50px;
+}
+
+.video-resfri video {
+
+    width: 1420px;
+    
+}
+
+.ultra-thin {
+    padding-top: 60px;
+    background-color: black;
+}
+
+.ultra-thin h1 {
+    color: #44d62c;
+
+}
+
+.ultra-thin h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.ultra-thin span {
+    padding-top: 20px;
+}
+
+.note-foto1 img {
+    width: 1423px;
+}
+
+.note-bateria img {
+    margin-top: -10px;
+    width: 1423px;
+}
+
+.velocidade {
+    text-align: center;
+    background-color: black ;
+}
+.velocidade-lag {
+    margin-top: -10px;
+    max-width: 1140px;
+    text-align: center;
+    margin-left: 140px;
+    padding-top: 60px;
+}
+
+.velocidade h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #44d62c;
+}
+
+.velocidade h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.velocidade span {
+    color: silver;
+    font-size: 18px;
+
+}
+
+.razer-video {
+    max-width: 1400px;
+}
+
+#velocidade-grid {
+    
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    
+}
+
+#QHD h1 {
+    color: white;
+    width: 400px;
+}
+
+#FHD h1 {
+    color: white;
+}
+
+.laptop2 img{
+    width: 1423px;
+
+}
+.ultra-connectivity {
+    margin-top: -10px;
+    padding-top: 100px;
+    text-align: center;
+    background-color: black;
+}
+
+.ultra-connectivity h1 {
+    color: #44d62c;
+    font-size: 44px;
+}
+
+.ultra-connectivity h3 {
+    margin-top: 10px;
+    font-size: 26px;
+    color: white;
+}
+
+.ultra-connectivity p {
+    width: 800px;
+    margin-left: 290px;
+    margin-top: 20px;
+    color: silver;
+    font-size: 18px;
+    padding-bottom: 50px;
+
+}
+
+.entrada-pc {
+    padding-top: 70px ;
+    font-size: 18px;
+    color: white;
+   list-style: decimal;
+    background-color: #111;
+}
+
+.entrada-pc img {
+    width: 1400px;
+}
+
+#entradas {
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+#entradas strong {
+    width: 30px;
+}
+#parallax {
+    
+}
